@@ -1,0 +1,1 @@
+This is a Git project created by Brandon Wexler to mirror the homepage of Google.com. 
