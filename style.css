@@ -6,4 +6,12 @@
     overflow: hidden;
     float: left;
     background-color: lightgrey;
+    width: 100%;
+}
+
+.main {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
