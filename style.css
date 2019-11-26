@@ -1,3 +1,9 @@
-.main-grid{
+.main-grid {
     display: grid;
+}
+
+.header {
+    overflow: hidden;
+    float: left;
+    background-color: lightgrey;
 }
