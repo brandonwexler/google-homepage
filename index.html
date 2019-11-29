@@ -8,11 +8,33 @@
         <div class="header">
          <a href="google.com">About</a>
          <a href="google.com">Store</a>
+         <a href="google.com" class="right">Gmail</a>
+         <a href="google.com" class="right">Images</a>
         </div>
 
     <!--Main content of page, including logo and search bar-->
         <div class="main">
-           <img src="/img/google.png" width="272" height="92">
+           <img src="/img/google.png" width="272" height="92" style="margin-top: 80px;">
          </div>
-    </body>
+         <input class="main" id="fakebox-input" autocomplete="off" tabindex="-1" type="url" aria-hidden="true" placeholder="Search Google or type a URL" width="410" height="44">
+         <style>
+                .footer {
+                  position: fixed;
+                  left: 0;
+                  bottom: 0;
+                  width: 100%;
+                  background-color: #fbfbfb;
+                  color: black;
+                  text-align: center;
+                }
+                </style>
+                
+                <div id="fakebox-container">
+
+                <div class="footer">
+                  <p>Google Footer</p>
+                </div>
+        </body>
+
+        
 </html>

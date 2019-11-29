@@ -1,10 +1,14 @@
+body {
+    font-family: arial,sans-serif;
+    font-size: 0.85em;
+}
+
 .main-grid {
     display: grid;
 }
 
 .header {
-    overflow: hidden;
-    float: left;
+    float: right;
     background-color: white;
     width: 100%;
 }
@@ -13,6 +17,52 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
-    align: center; 
+    width: 25%;
+  }
+
+.left {
+    float: left;
 }
+
+.right {
+    float: right;
+    margin-right: 5px
+}
+
+#fakebox > input {
+    bottom: 0;
+    box-sizing: border-box;
+    left: 0;
+    margin: 0;
+    opacity: 0;
+    padding-inline-start: 20px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+#fakebox {
+    background: white;
+    border-radius: 22px;
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, .28);
+    box-sizing: border-box;
+    cursor: text;
+    font-size: 16px;
+    height: 44px;
+    margin: 0 auto;
+    max-width: 584px;
+    opacity: 1;
+    position: relative;
+    transition: none;
+
+.footer {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: red;
+      color: white;
+      text-align: center;
+    }    
+
+
